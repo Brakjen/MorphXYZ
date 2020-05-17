@@ -2,6 +2,7 @@
 ![](HeaderAnimation.gif)
 
 --Interpolate between two XYZ files--
+
 ###Usage
 ```bash
 $ python morph.py --help
