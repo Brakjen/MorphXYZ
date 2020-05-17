@@ -17,7 +17,7 @@ optional arguments:
   -d str, --dest str    Output directory (default: .)
   -n int, --nsteps int  Number of interpolation steps (default: 50)
   -o str, --origin str  Origin for alignment {centroid/com} (default: com)
-  -l, --loop            Don't loop the morph back to start (default: true)
+  -l, --loop            Loop the morph back to start (default: false)
   -v, --verbose         Verbose output (default: false)
 ```
 ### Minimal Example
