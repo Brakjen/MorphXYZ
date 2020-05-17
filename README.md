@@ -3,7 +3,7 @@
 
 --Interpolate between two XYZ files--
 
-###Usage
+### Usage
 ```bash
 $ python morph.py --help
 
@@ -20,7 +20,7 @@ optional arguments:
   -l, --loop            Don't loop the morph back to start (default: true)
   -v, --verbose         Verbose output (default: false)
 ```
-###Minimal Example
+### Minimal Example
 ```bash
 $ python morph.xyz start.xyz stop.xyz --loop
 ```
@@ -30,7 +30,7 @@ linearly interpolated geometries, morphed
 from start to stop and back to start, both in
 steps of 50.
 
-###Details
+### Details
 The script first performs an alignment,
 based on the Kabsch algorithm
 (https://en.wikipedia.org/wiki/Kabsch_algorithm).
@@ -45,7 +45,7 @@ objects, such as the covariance and
 optimal rotation matrices from the 
 alignment.
 
-###Caveats
+### Caveats
 These are currently some limitations or unwanted
 behavior:
 - Start and stop geometries MUST have the same
@@ -59,7 +59,7 @@ behavior:
   in stop, but the visualizing software is not able
   to tell, so the representation stays like an H atom).
   
-###Author
+### Author
 Anders Brakestad
 PhD Candidate in Computational Chemistry
 University of Tromsø The Arctic University of Norway
